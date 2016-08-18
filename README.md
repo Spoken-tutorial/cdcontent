@@ -21,6 +21,8 @@ open config.py and update the following variables
 To run the app, use the following command
 -----------------------------------------
 
-./main.py
+python2.7 main.py
+
 (or)
+
 python main.py
