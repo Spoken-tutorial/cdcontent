@@ -1,7 +1,8 @@
 """Spoken CD content models auto-generated."""
 from peewee import *
+from config import dbuser, dbpassword, dbname
 
-database = MySQLDatabase('spoken', **{'password': 'root123', 'user': 'root'})
+database = MySQLDatabase(dbname, **{'password': dbpassword, 'user': dbuser})
 
 
 class UnknownField(object):

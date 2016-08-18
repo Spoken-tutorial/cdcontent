@@ -1,7 +1,7 @@
 """CD content config variables."""
 
 # base path
-base_path = '/home/testing/website'
+base_path = '/home/vishnu/work/spoken-website'
 
 # videos location
 videos_path = '{}/media/videos/'.format(base_path)
@@ -10,4 +10,9 @@ videos_path = '{}/media/videos/'.format(base_path)
 default_zip_file_path = '/tmp/'
 
 # location to create zip file
-zip_file_path = '/home/testing/'
+zip_file_path = '/home/vishnu/'
+
+# database configs
+dbuser = 'root'
+dbpassword = 'root123'
+dbname = 'spoken'
